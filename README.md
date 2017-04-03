@@ -20,9 +20,6 @@
 |[react-native-code-push](react-native-code-push)|Online upgrade app without submitting to app store.|
 |[react-native-image-crop-picker](https://github.com/ivpusic/react-native-image-crop-picker)|Pick image and video from album, or taken from camera.|
 |[react-native-video](https://github.com/react-native-community/react-native-video)|Play video.|
-|[react-native-orientation](https://github.com/yamill/react-native-orientation)|Orientation support.|
-|[react-native-amap-location](https://github.com/xiaobuu/react-native-amap-location)|Locate on Android.|
-|[react-native-wechat](https://github.com/weflex/react-native-wechat)|Share to WeChat.|
 |[react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)|Display icon.|
 
 ### How to run
@@ -47,11 +44,7 @@ Please follow the official doc [Generating Signed APK](https://facebook.github.i
 
 **react-native-navigation**
 
-Open file 'node_modules/react-native-navigation/android/app/src/main/java/com/reactnativenavigation/react/NavigationReactGateway.java', find line `protected boolean getUseDeveloperSupport() {` and modify it to `public boolean getUseDeveloperSupport() {`.
-
-**react-native-wechat**
-
-Open file 'node_modules/react-native-wechat/ios/RCTWeChat.m', remove or comment line `#import <RCTImage/RCTImageUtils.h>`.
+When reload js on iOS, there will appear an error "Module AppRegistry is not a registered callable module (calling runApplication)". It can be ignored by dismiss error. For more info to check [issue](https://github.com/wix/react-native-navigation/issues/966).
 
 **generating android apk failed**
 

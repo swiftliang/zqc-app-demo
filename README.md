@@ -48,7 +48,7 @@ When reload js on iOS, there will appear an error "Module AppRegistry is not a r
 
 **generating android apk failed**
 
-If you see error like "Cannot merge new index ...", you can refer to issue [Issue #5](https://github.com/jaggerwang/zqc-app-demo/issues/5)
+If you see error like "Cannot merge new index ...", you can refer to this [issue](https://github.com/jaggerwang/zqc-app-demo/issues/5)
 
 ### Other resources
 

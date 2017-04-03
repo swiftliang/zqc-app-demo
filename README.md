@@ -46,10 +46,6 @@ Please follow the official doc [Generating Signed APK](https://facebook.github.i
 
 When reload js on iOS, there will appear an error "Module AppRegistry is not a registered callable module (calling runApplication)". It can be ignored by dismiss error. For more info to check [issue](https://github.com/wix/react-native-navigation/issues/966).
 
-**generating android apk failed**
-
-If you see error like "Cannot merge new index ...", you can refer to this [issue](https://github.com/jaggerwang/zqc-app-demo/issues/5)
-
 ### Other resources
 
 * [视频课程 - React Native跨平台移动应用开发](http://study.163.com/course/courseMain.htm?courseId=1003433016)

@@ -44,7 +44,7 @@ Please follow the official doc [Generating Signed APK](https://facebook.github.i
 
 **react-native-navigation**
 
-When reload js on iOS, there will appear an error "Module AppRegistry is not a registered callable module (calling runApplication)". It can be ignored by dismiss error. For more info to check [issue](https://github.com/wix/react-native-navigation/issues/966).
+After `npm install`, you need to check react-native-navigation version by `cat node_modules/react-native-navigation/package.json`. If the version is not like "2.0.0-experimental.\*", reinstall it by `npm i react-native-navigation@2.0.0-experimental.266 -S`.
 
 ### Other resources
 
